@@ -1,0 +1,17 @@
+@use "../util/" as u;
+
+.home{
+    height: 90vh;
+    margin-top: 10vh;
+    width: 100vw;
+    background: u.$tertiary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__heading{
+        text-transform: uppercase;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
